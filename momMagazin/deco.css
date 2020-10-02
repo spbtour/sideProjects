@@ -1,0 +1,43 @@
+h1{
+    font-size: 2em;
+    text-align: center;
+  }
+  :root{
+    text-align: center;
+  }
+  #button1{
+    float:left;
+    padding: 2em;
+  }
+  #button2{
+    float: right;
+    padding: 2em;
+    position: relative;
+    top: -60px;
+    
+  }
+  #bottom{
+    margin = 10em;
+    padding = 10em;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+  }
+  #table{
+    
+    table-layout : fixed;
+    width: 100%;
+  }
+  #table th{
+    color: white;
+    background-color: green;
+  }
+  #table td{
+    color: black;
+    background-color: #87ceeb;
+  }
+  /*#table td:hover{
+    color: blue;
+  }  이게 문제가 위에 날짜까지 다 hover 할때 색이 변하네.. 이거 문제네..*/
+  
+  

@@ -1,0 +1,83 @@
+<!html>
+<html>
+  <title>
+  용금아 장보러가자
+     
+  </title>
+  <link rel="stylesheet" type="text/css" href="deco.css">
+  <head id = "title">
+    <div>
+  <button type="button" id="button1">저번주!</button>
+      <h1>9월 식단</h1> <button type="button" id="button2">다음주!</button><br>
+    </div>
+      </head>
+  <body>
+    <hr>
+    <table id = "table">
+  <tr>
+    <th>일자</th>
+    <th>21(월)</th>
+    <th>22(화)</th>
+    <th>23(수)</th>
+    <th>24(목)</th>
+    <th>25(금)</th>
+  </tr>
+  <tr>
+    <td>오전간식</td>
+    <td draggable=true>제철과일</td>
+    <td draggable=true>떠먹는(마시는)요구르트2</td>
+    <td draggable=true>제철과일</td>
+    <td draggable=true>밤죽(고구마죽2)</td>
+    <td draggable=true>제철과일</td>
+  </tr>
+  <tr>
+    <td>점심</td>
+    <td><span draggable=true ondragstart="onDragStart(event);" id ="44">백미밥</span><br><span draggable=true ondragstart="onDragStart(event);">파송송달걀국1</span><br><span draggable=true ondragstart="onDragStart(event);">두부카레조림5.6<br></span><span draggable=true ondragstart="onDragStart(event);">애호박나물5.6<br></span><span draggable=true ondragstart="onDragStart(event);">무절임(깍두기)9<br></span></td>
+    
+    
+    
+    <td draggable=true ondragstart="onDragStart(event);"><br>현미밥<br>
+다시마채국5.6<br>
+비엔나채소볶음5.6.10<br>
+(돼지고기:       산)<br>
+참나물무침5.6<br>
+(아욱된장무침5.6)<br>
+백김치(배추김치)9<br></td>
+    <td draggable=true><br>간장달걀비빔밥1.2.5.6<br>
+시금치국5.6<br>
+(청경채된장국5.6)<br>
+견과류잔멸치조림5.6.14<br>
+무절임(깍두기)9<br>
+(+브로콜리흑임자소스무침1.5.6)<br></td>
+    <td draggable=true><br>흑미밥<br>
+열무맑은국5.6.9<br>
+(시래기맑은국5.6)<br>
+새우살채소전1.5.6.9<br>
+느타리버섯볶음<br>
+백김치(배추김치)9<br></td>
+    <td draggable=true><br>수수밥<br>
+양배추된장국5.6<br>
+오리매실청불고기5.6<br>
+오이부추무침<br>
+무절임(깍두기)9<br></td>
+  </tr>
+  <tr>
+    <td draggable=true>오후간식</td>
+    <td draggable=true>빵1.2.6 & 우유2</td>
+    <td draggable=true>크림리조또2</td>
+    <td draggable=true>궁중떡볶이5.6.16
+(쇠고기:(한우/육우)    산)</td>
+    <td draggable=true>단호박찜 & 우유2</td>
+    <td draggable=true>떡 & 전통차</td>
+  </tr>
+    </table>
+      </div>
+ 
+ <hr>
+ <div id = "bottom" ondragover="onDragOver(event);"  ondrop="onDrop(event);">
+
+  </div>
+  <script src="index.js">
+    </script>
+    </body>
+</html>

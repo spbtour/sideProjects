@@ -1,0 +1,190 @@
+html {
+    display: table;
+    margin: auto;
+}
+body {
+  max-height: 1400px;
+}
+#title{
+  font-size: 70px;
+  position: relative;
+  top: 65px;
+  display: inline-block;
+
+
+}
+  #titlet{
+      text-decoration: none;
+  color: black;
+  }
+#ad1 {
+  height: 100px;
+  width: 300px;
+  background-color: green;
+  color: white;
+  text-align: center;
+  position: relative;
+  left: 700px;
+  top: -25px;
+}
+
+.search-container {
+  display: inline-block;
+  position: relative;
+  top: 50px;
+  left: 85px;
+}
+.active{
+
+}
+
+.navbar {
+  width: 1000px;
+  background-color: #555;
+  overflow: auto;
+}
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px 40px 12px 53.9px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover{ 
+    	background-color: #ffffff; 
+    	color: #000000; 
+ } 
+.active{
+  background-color: green;
+    	color: black; 
+}
+
+#a {
+  width: 576px;
+  height: 485px;
+  background-color: green;
+  position: relative;
+  top: 20px;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+.at{
+font-size: 30px;
+}
+.att{
+font-size: 25px;
+list-style-type: none;
+}
+#b {
+  width: 380px;
+  height: 485px;
+  background-color: yellow;
+  position: relative;
+  left: 605px;
+  top: -475px;
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: 25px;
+}
+#c {
+  width: 670px;
+  height: 500px;
+  background-color: purple;
+  position: relative;
+  top: -450px;
+}
+#d {
+  width: 300px;
+  height: 500px;
+  background-color: red;
+  position: relative;
+  top: -950px;
+  left: 700px;
+
+}
+#ad2{
+   width: 670px;
+  height: 200px;
+  background-color: Chartreuse;
+  position:relative;
+  top: -925px;
+}
+#ad3{
+  width: 300px;
+  height: 220px;
+  background-color:PaleGoldenRod;
+  position: relative;
+  left: 700px;
+  top:-1125px;
+
+}
+footer {
+  position: fixed;
+  left: 894px;
+  bottom: 0;
+  background-color: white;
+}
+#realFoto1{
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  position: relative;
+  left: 170px;
+  top: -230px;
+}
+#realFoto2{
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  position: relative;
+  left: 170px;
+  top: -225px;
+}
+#real2{
+  position: relative;
+  top: -200px;
+}
+
+.hire{
+  padding: 25px;
+}
+#hire{
+ font-size: 30px;
+ text-decoration: none;
+ color: black;
+}
+
+.hdetail{
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  position: relative;
+  color: white;
+}
+
+#ha{
+  top: 15px;
+  left: 20px;
+  width: 250px;
+  height: 430px;
+}
+#hb{
+    top: 15px;
+  left: 40px;
+  width: 100px;
+  height: 430px;
+}
+#hc{
+    top: 15px;
+  left: 55px;
+  width: 100px;
+  height: 430px;
+}
+#hd{
+    top: 15px;
+  left: 66px;
+  width: 100px;
+  height: 430px;
+}

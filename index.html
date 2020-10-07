@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>abaaba</title>
+
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href=src/deco.css>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div class="top">
+      <div id="title"><a href="#!home" id="titlet" onclick="fetchPage('home')">Title-title</a></div>
+      <div class="search-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Что вы ищете?.." name="search" />
+          <button type="submit">Поиск</button>
+        </form>
+      </div>
+      <div class="ads" id="ad1">
+        ad1
+      </div>
+    </div>
+
+    <div class="navbar">
+      <a class="active" href="#!home" onclick="fetchPage('home')">Home</a>
+      <a href="#!community" onclick="fetchPage('community')">Community</a>
+      <a href="#!hiring" onclick="fetchPage('hiring')">Hiring</a>
+      <a href="#!2ndHand" onclick="fetchPage('2ndHand')">2nd hand</a>
+      <a href="#!realEstate" onclick="fetchPage('realEstate')">Real estate</a>
+      <a href="#!contactUs" onclick="fetchPage('contactUs')">Contact us</a>
+    </div>
+    <script src="src/index.js"></script>
+    <article></article>
+    <script>
+      fetchPage('home')
+    </script>
+  </body>
+</html>
